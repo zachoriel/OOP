@@ -110,6 +110,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PiggyBank.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Television.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PiggyBank.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="Television.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
