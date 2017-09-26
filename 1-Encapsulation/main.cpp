@@ -1,7 +1,5 @@
-/* WALKTHROUGH
-
 #include <iostream>
-#include "Person.h"
+/*#include "Person.h"
 using namespace std;
 
 int main()
@@ -29,7 +27,7 @@ int main()
 	baby.print();
 
 	while (true) {}
-} */
+} 
 
 #include <iostream>
 #include "Television.h"
@@ -82,4 +80,4 @@ int main()
 
 
 	while (true) {}
-}
+} */

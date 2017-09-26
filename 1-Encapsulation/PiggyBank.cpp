@@ -1,4 +1,4 @@
-#include "PiggyBank.h"
+/* #include "PiggyBank.h"
 
 void PiggyBank::deposit(float DepositedAmount)
 {
@@ -21,3 +21,4 @@ float PiggyBank::balance() const
 {
 	return currentBalance;
 }
+*/ 

@@ -1,4 +1,4 @@
-#include "Server.h"
+/* #include "Server.h"
 
 ServerBrowserService::ServerBrowserService()
 {
@@ -46,4 +46,4 @@ int ServerBrowserService::getServers(ServerInfo * dstArray, size_t dstSize)
 
 	// thye size of the new array we coppied
 	return size;
-}
+} */

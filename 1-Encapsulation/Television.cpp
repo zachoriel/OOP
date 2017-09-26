@@ -27,7 +27,7 @@ void Person::print()
 bool Person::checkSoc(string test)
 {
 	return soc == test;
-} */ 
+} 
 
 
 #pragma once
@@ -69,3 +69,4 @@ void Television::decreaseChannel()
 {
 	currentChannel--;
 }
+*/ 
