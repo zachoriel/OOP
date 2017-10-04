@@ -44,12 +44,12 @@ void PlayerTwo::update()
 
 void Player::draw()
 {
-	sfw::drawCircle(x, y, 10);
+	sfw::drawCircle(x, y, 5);
 }
 
 void PlayerTwo::draw()
 {
-	sfw::drawCircle(x, y, 10);
+	sfw::drawCircle(x, y, 5);
 }
 
 void Line::draw()
@@ -93,6 +93,56 @@ void ObstacleFour::draw()
 }
 
 void ObstacleFive::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleSix::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleSeven::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleEight::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleNine::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleTen::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleEleven::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleTwelve::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleThirteen::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleFourteen::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void ObstacleFifteen::draw()
 {
 	sfw::drawLine(startX, startY, endX, endY);
 }

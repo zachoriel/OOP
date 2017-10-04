@@ -128,6 +128,126 @@ public:
 	void draw();
 };
 
+class ObstacleSix
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleSeven
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleEight
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleNine
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleTen
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleEleven
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleTwelve
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleThirteen
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleFourteen
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class ObstacleFifteen
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
 class Goal
 {
 public:
