@@ -24,10 +24,10 @@ int main()
 
 	Line line;			// Boundaries (cont. through LineFour)
 
-	line.startX = 0;
-	line.endX = 800;
-	line.startY = 600;
-	line.endY = 600;
+	line.startX = 1;
+	line.endX = 799;
+	line.startY = 599;
+	line.endY = 599;
 
 	LineTwo linetwo;
 
@@ -52,10 +52,10 @@ int main()
 
 	ObstacleOne obestacleone;	// OBSTACLES
 
-	// START/END
+								// START/END
 
 	Goal box;
-						// Suboptimal goal-post positioning. Numerical revaluation recommended. 
+	// Suboptimal goal-post positioning. Numerical revaluation recommended. 
 	box.startX = 350;
 	box.endX = 450;
 	box.startY = 500;
@@ -70,7 +70,7 @@ int main()
 	box.endY3 = 400;
 
 	GoalTwo goal;
-						// TRANSFORM & TRANSLATE BRUH
+	// TRANSFORM & TRANSLATE BRUH
 	goal.startX = 350;
 	goal.endX = 450;
 	goal.startY = 500;
