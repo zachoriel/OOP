@@ -1,3 +1,5 @@
+// NOTE: Collision was working, and then I changed one thing, and now it's suddenly not working. And I'm completely out of time because the project is due now. :(
+
 #include <iostream>
 
 #include "sfwdraw.h"
