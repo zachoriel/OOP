@@ -68,6 +68,30 @@ public:
 	void draw();
 };
 
+class LineFive
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
+class LineSix
+{
+public:
+	float startX;
+	float startY;
+
+	float endX;
+	float endY;
+
+	void draw();
+};
+
 class ObstacleOne
 {
 public:

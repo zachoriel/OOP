@@ -72,6 +72,16 @@ void LineFour::draw()
 	sfw::drawLine(startX, startY, endX, endY);
 }
 
+void LineFive::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
+void LineSix::draw()
+{
+	sfw::drawLine(startX, startY, endX, endY);
+}
+
 void ObstacleOne::draw()
 {
 	sfw::drawLine(startX, startY, endX, endY);

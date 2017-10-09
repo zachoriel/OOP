@@ -24,7 +24,7 @@ int main()
 	two.x = 410;
 	two.y = 310;
 
-	Line line;			// Boundaries (cont. through LineFour)
+	Line line;			// Boundaries (cont. through LineSix)
 
 	line.startX = 5;
 	line.endX = 795;
@@ -51,6 +51,20 @@ int main()
 	linefour.endX = 795;
 	linefour.startY = 595;
 	linefour.endY = 5;
+
+	LineFive linefive;
+
+	linefive.startX = 250;
+	linefive.endX = 250;
+	linefive.startY = 5;
+	linefive.endY = 595;
+
+	LineSix linesix;
+
+	linesix.startX = 550;
+	linesix.endX = 550;
+	linesix.startY = 5;
+	linesix.endY = 595;
 
 	ObstacleOne obs1;	// OBSTACLES
 
@@ -197,6 +211,8 @@ int main()
 		linetwo.draw();
 		linethree.draw();
 		linefour.draw();
+		linefive.draw();
+		linesix.draw();
 
 		obs1.draw();
 		obs2.draw();
@@ -329,6 +345,26 @@ int main()
 			two.y = 300;
 		}
 		if ((two.x > 379) && (two.y > 164) && (two.x < 381) && (two.y < 166))
+		{
+			two.x = 400;
+			two.y = 300;
+		}
+		if (one.x > 550)
+		{
+			one.x = 400;
+			one.y = 300;
+		}
+		if (one.x < 250)
+		{
+			one.x = 400;
+			one.y = 300;
+		}
+		if (two.x > 550)
+		{
+			two.x = 400;
+			two.y = 300;
+		}
+		if (two.x < 250)
 		{
 			two.x = 400;
 			two.y = 300;
